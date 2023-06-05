@@ -24,6 +24,7 @@ In this challenge I use SparkSQL to determine key metrics about home sales data.
   - Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
    ![image](https://github.com/Swetavirani/Home_Sales/assets/102982635/18d1d80c-6102-4cad-ae08-923f4d659183)
   
+    
     Runtime is 0.32591 seconds with caching as against 0.71490 seconds pre-caching
    - Uncache the home_sales temporary table.
    - Verify that the home_sales temporary table is uncached using PySpark.
