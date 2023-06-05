@@ -22,6 +22,7 @@ In this challenge I use SparkSQL to determine key metrics about home sales data.
   - Partition by the "date_built" field on the formatted parquet home sales data.
   - Create a temporary table for the parquet data.
   - Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
+  
    ![image](https://github.com/Swetavirani/Home_Sales/assets/102982635/18d1d80c-6102-4cad-ae08-923f4d659183)
   
     
